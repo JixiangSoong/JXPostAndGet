@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'JXPostAndGet_Example', :exclusive => true do
+  pod "JXPostAndGet", :path => "../"
+end
+
+target 'JXPostAndGet_Tests', :exclusive => true do
+  pod "JXPostAndGet", :path => "../"
+
+  
+end
