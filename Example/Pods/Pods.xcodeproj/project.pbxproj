@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DEA8C7A8234DCAF1AEEFB9898FF72E1 /* JXPostAndGet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A9758EC5EF2B8005867E05F301F3A2D /* JXPostAndGet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31325D42A5BA5258F74B2670226B0F30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		63BF71D61466C83E6E33D595518DD73F /* JXPostAndGet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BD2A1B46AB3319DA5CC1BB1AFA2864 /* JXPostAndGet-dummy.m */; };
+		66B5E037BADA281DAB407791999DBC3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		69A7F61BE3036C8557A792352F52AB29 /* JXPostAndGet.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EE685A49EF161A5DB0C2D03EE42646E5 /* JXPostAndGet.bundle */; };
+		6A0E2A137B6F397A095BEC6DD35EA452 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B37AB1612BA44805CDAF7E6463DEDCB /* ReplaceMe.m */; };
+		6AB0FEF3AEC88D865CBAF8EE7218A773 /* Pods-JXPostAndGet_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B762F5CEC14B3158B986146DE0E87D /* Pods-JXPostAndGet_Tests-dummy.m */; };
+		76D08DA1FB79E9D75E83E38CCAA6644B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		A6D6EC66EBD366B28FBBE827E619D86A /* Pods-JXPostAndGet_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9F393AF9762275B7ABF8D122BB266F /* Pods-JXPostAndGet_Example-dummy.m */; };
+		F520393780D7F51E9AF742D2BC444350 /* Pods-JXPostAndGet_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D115640293B44D6A416FB4DDA7D309 /* Pods-JXPostAndGet_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF335462E2A2EA45391DEF71B22BE793 /* Pods-JXPostAndGet_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 933C5F1A8E96B74ED8D01367711C09B3 /* Pods-JXPostAndGet_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03DA2DD11733C674C1641500D4B2E309 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 392F883E0A574CAEB6D8D8546AB04AAD;
+			remoteInfo = "JXPostAndGet-JXPostAndGet";
+		};
+		1537B0460A061861D37B59BCF25D7C6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 592EFCC43293D8F703D32D385D223E50;
+			remoteInfo = JXPostAndGet;
+		};
+		19B972EB1A0373E0FF02AB07EBA35E3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 592EFCC43293D8F703D32D385D223E50;
+			remoteInfo = JXPostAndGet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		074186771034871FDF74072EB092D0C9 /* Pods-JXPostAndGet_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXPostAndGet_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0984966DF3853BEEDFF0683E13C9BC76 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A9758EC5EF2B8005867E05F301F3A2D /* JXPostAndGet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXPostAndGet-umbrella.h"; sourceTree = "<group>"; };
+		31ADC52E6CB0E7B3D202BD2AB1A1A6EB /* Pods_JXPostAndGet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JXPostAndGet_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		372A10419CC575DDC9BB59A50CA8FE55 /* Pods-JXPostAndGet_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JXPostAndGet_Tests-resources.sh"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E9F393AF9762275B7ABF8D122BB266F /* Pods-JXPostAndGet_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JXPostAndGet_Example-dummy.m"; sourceTree = "<group>"; };
+		4529A4169EBDF7E8E9C903A6EA508B63 /* Pods-JXPostAndGet_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXPostAndGet_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4AAA30DACFDBFFC70535DA923D26FBD6 /* JXPostAndGet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXPostAndGet-prefix.pch"; sourceTree = "<group>"; };
+		4B37AB1612BA44805CDAF7E6463DEDCB /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		548BD660947420BB557E3E6C41438268 /* JXPostAndGet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXPostAndGet.xcconfig; sourceTree = "<group>"; };
+		72234334A0081C7DA8C6AC52F9283E00 /* Pods-JXPostAndGet_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JXPostAndGet_Example-frameworks.sh"; sourceTree = "<group>"; };
+		79E302C37FD41DBE36EE29031C7CCF6C /* Pods-JXPostAndGet_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JXPostAndGet_Example-resources.sh"; sourceTree = "<group>"; };
+		7B34C3D2E13F1A032D30C5D37A5968E7 /* Pods-JXPostAndGet_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JXPostAndGet_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		86B762F5CEC14B3158B986146DE0E87D /* Pods-JXPostAndGet_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JXPostAndGet_Tests-dummy.m"; sourceTree = "<group>"; };
+		870448970A9EFD85D0EFBD07C873041D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88B2B971226AC78EC01F85900A90280E /* Pods-JXPostAndGet_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXPostAndGet_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		933C5F1A8E96B74ED8D01367711C09B3 /* Pods-JXPostAndGet_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JXPostAndGet_Tests-umbrella.h"; sourceTree = "<group>"; };
+		94BD2A1B46AB3319DA5CC1BB1AFA2864 /* JXPostAndGet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JXPostAndGet-dummy.m"; sourceTree = "<group>"; };
+		9A68995A606DB5BD841B0D5D25CB2A09 /* Pods_JXPostAndGet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JXPostAndGet_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A67CEF7C19AC54022F7C357EFA64A179 /* JXPostAndGet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JXPostAndGet.modulemap; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C525A3298EF9A0DD2E16FE1C11EAADAF /* Pods-JXPostAndGet_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXPostAndGet_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C8FE3DEDB9FBCA5F77D4796634D00C87 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD018126F225287531E5B163515247BF /* Pods-JXPostAndGet_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXPostAndGet_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DCE1F346404109934D56885A645381A2 /* Pods-JXPostAndGet_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JXPostAndGet_Example.modulemap"; sourceTree = "<group>"; };
+		E36EBF2DC26C5F7B250025BA29D327A5 /* Pods-JXPostAndGet_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JXPostAndGet_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E57AE988D31528AC9443BB439CFDEEC3 /* Pods-JXPostAndGet_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JXPostAndGet_Tests.modulemap"; sourceTree = "<group>"; };
+		E9D115640293B44D6A416FB4DDA7D309 /* Pods-JXPostAndGet_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JXPostAndGet_Example-umbrella.h"; sourceTree = "<group>"; };
+		ED1523812BD4E30730378DAE11546779 /* Pods-JXPostAndGet_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXPostAndGet_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EE685A49EF161A5DB0C2D03EE42646E5 /* JXPostAndGet.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXPostAndGet.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F08E8CAF510084769B71B86C6C5DC772 /* JXPostAndGet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JXPostAndGet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBDC7D96D329E26F39C74164C4BA1030 /* Pods-JXPostAndGet_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JXPostAndGet_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32B53BA678FCF75FC17326F3261D00D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31325D42A5BA5258F74B2670226B0F30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AD19BA1E6FEFB4A245AB7EA3BD39F82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF09B8112134DCB16887685C3CC7310C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76D08DA1FB79E9D75E83E38CCAA6644B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0EAE319610CAB2182C24917A08929D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B5E037BADA281DAB407791999DBC3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16349EB6112E7B7F51979C978BDED117 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0984966DF3853BEEDFF0683E13C9BC76 /* Info.plist */,
+				A67CEF7C19AC54022F7C357EFA64A179 /* JXPostAndGet.modulemap */,
+				548BD660947420BB557E3E6C41438268 /* JXPostAndGet.xcconfig */,
+				94BD2A1B46AB3319DA5CC1BB1AFA2864 /* JXPostAndGet-dummy.m */,
+				4AAA30DACFDBFFC70535DA923D26FBD6 /* JXPostAndGet-prefix.pch */,
+				2A9758EC5EF2B8005867E05F301F3A2D /* JXPostAndGet-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JXPostAndGet";
+			sourceTree = "<group>";
+		};
+		67610E4C0416D3DF492B673D977D79BC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6966EB342DCC5A8906F590B2D3BDEC1 /* JXPostAndGet */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7234D53A7BCF33EFF309B6397E9EF38F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B7890F9A7B0DCAE9C2108B04FD4B63E2 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				67610E4C0416D3DF492B673D977D79BC /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8E4A797D9415C8E469206ABFCD44B8FF /* Products */,
+				8E28E8244F6E5970CBB86FF7022E6C01 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8E28E8244F6E5970CBB86FF7022E6C01 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C25E3B711F55EFC3EBC6A987E0DD270B /* Pods-JXPostAndGet_Example */,
+				C257E21754586E7BCE2328620521B2B1 /* Pods-JXPostAndGet_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8E4A797D9415C8E469206ABFCD44B8FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE685A49EF161A5DB0C2D03EE42646E5 /* JXPostAndGet.bundle */,
+				F08E8CAF510084769B71B86C6C5DC772 /* JXPostAndGet.framework */,
+				9A68995A606DB5BD841B0D5D25CB2A09 /* Pods_JXPostAndGet_Example.framework */,
+				31ADC52E6CB0E7B3D202BD2AB1A1A6EB /* Pods_JXPostAndGet_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7890F9A7B0DCAE9C2108B04FD4B63E2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4B37AB1612BA44805CDAF7E6463DEDCB /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C257E21754586E7BCE2328620521B2B1 /* Pods-JXPostAndGet_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				870448970A9EFD85D0EFBD07C873041D /* Info.plist */,
+				E57AE988D31528AC9443BB439CFDEEC3 /* Pods-JXPostAndGet_Tests.modulemap */,
+				7B34C3D2E13F1A032D30C5D37A5968E7 /* Pods-JXPostAndGet_Tests-acknowledgements.markdown */,
+				88B2B971226AC78EC01F85900A90280E /* Pods-JXPostAndGet_Tests-acknowledgements.plist */,
+				86B762F5CEC14B3158B986146DE0E87D /* Pods-JXPostAndGet_Tests-dummy.m */,
+				E36EBF2DC26C5F7B250025BA29D327A5 /* Pods-JXPostAndGet_Tests-frameworks.sh */,
+				372A10419CC575DDC9BB59A50CA8FE55 /* Pods-JXPostAndGet_Tests-resources.sh */,
+				933C5F1A8E96B74ED8D01367711C09B3 /* Pods-JXPostAndGet_Tests-umbrella.h */,
+				074186771034871FDF74072EB092D0C9 /* Pods-JXPostAndGet_Tests.debug.xcconfig */,
+				4529A4169EBDF7E8E9C903A6EA508B63 /* Pods-JXPostAndGet_Tests.release.xcconfig */,
+			);
+			name = "Pods-JXPostAndGet_Tests";
+			path = "Target Support Files/Pods-JXPostAndGet_Tests";
+			sourceTree = "<group>";
+		};
+		C25E3B711F55EFC3EBC6A987E0DD270B /* Pods-JXPostAndGet_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C8FE3DEDB9FBCA5F77D4796634D00C87 /* Info.plist */,
+				DCE1F346404109934D56885A645381A2 /* Pods-JXPostAndGet_Example.modulemap */,
+				FBDC7D96D329E26F39C74164C4BA1030 /* Pods-JXPostAndGet_Example-acknowledgements.markdown */,
+				ED1523812BD4E30730378DAE11546779 /* Pods-JXPostAndGet_Example-acknowledgements.plist */,
+				3E9F393AF9762275B7ABF8D122BB266F /* Pods-JXPostAndGet_Example-dummy.m */,
+				72234334A0081C7DA8C6AC52F9283E00 /* Pods-JXPostAndGet_Example-frameworks.sh */,
+				79E302C37FD41DBE36EE29031C7CCF6C /* Pods-JXPostAndGet_Example-resources.sh */,
+				E9D115640293B44D6A416FB4DDA7D309 /* Pods-JXPostAndGet_Example-umbrella.h */,
+				CD018126F225287531E5B163515247BF /* Pods-JXPostAndGet_Example.debug.xcconfig */,
+				C525A3298EF9A0DD2E16FE1C11EAADAF /* Pods-JXPostAndGet_Example.release.xcconfig */,
+			);
+			name = "Pods-JXPostAndGet_Example";
+			path = "Target Support Files/Pods-JXPostAndGet_Example";
+			sourceTree = "<group>";
+		};
+		F6966EB342DCC5A8906F590B2D3BDEC1 /* JXPostAndGet */ = {
+			isa = PBXGroup;
+			children = (
+				7234D53A7BCF33EFF309B6397E9EF38F /* Pod */,
+				16349EB6112E7B7F51979C978BDED117 /* Support Files */,
+			);
+			name = JXPostAndGet;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		36BBA46E76D8C1F9456CC0B6E42640A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF335462E2A2EA45391DEF71B22BE793 /* Pods-JXPostAndGet_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		473F1B3B88A390379FB5794E38AAF77B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F520393780D7F51E9AF742D2BC444350 /* Pods-JXPostAndGet_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F5610D4DB0745F496DD9D1E851D61A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DEA8C7A8234DCAF1AEEFB9898FF72E1 /* JXPostAndGet-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		392F883E0A574CAEB6D8D8546AB04AAD /* JXPostAndGet-JXPostAndGet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D47330D468DD3177CBAC99414CA874DB /* Build configuration list for PBXNativeTarget "JXPostAndGet-JXPostAndGet" */;
+			buildPhases = (
+				9F5326D3B0EFD011847AD32E09998B10 /* Sources */,
+				4AD19BA1E6FEFB4A245AB7EA3BD39F82 /* Frameworks */,
+				B55E1A4D6D5F6725906ACA5525D9C685 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JXPostAndGet-JXPostAndGet";
+			productName = "JXPostAndGet-JXPostAndGet";
+			productReference = EE685A49EF161A5DB0C2D03EE42646E5 /* JXPostAndGet.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		592EFCC43293D8F703D32D385D223E50 /* JXPostAndGet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76A26331323E8C779F71FA77FD2007F9 /* Build configuration list for PBXNativeTarget "JXPostAndGet" */;
+			buildPhases = (
+				2DD525C3855AA4E5E83F876EED45B15F /* Sources */,
+				32B53BA678FCF75FC17326F3261D00D0 /* Frameworks */,
+				C491DBBD90411A435D9E33413E52142A /* Resources */,
+				86F5610D4DB0745F496DD9D1E851D61A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FD953A701B4A4BEC6EE54672B4407E7 /* PBXTargetDependency */,
+			);
+			name = JXPostAndGet;
+			productName = JXPostAndGet;
+			productReference = F08E8CAF510084769B71B86C6C5DC772 /* JXPostAndGet.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		70A29FE226B79FE845653503B381E51C /* Pods-JXPostAndGet_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1A33AE866FA4ED6CE65B5E6FC24CC7D /* Build configuration list for PBXNativeTarget "Pods-JXPostAndGet_Example" */;
+			buildPhases = (
+				D515F604F96C52A3501FE83E7115EF07 /* Sources */,
+				F0EAE319610CAB2182C24917A08929D2 /* Frameworks */,
+				473F1B3B88A390379FB5794E38AAF77B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A84C40A425F4979CB4A9FE00E48F3DE8 /* PBXTargetDependency */,
+			);
+			name = "Pods-JXPostAndGet_Example";
+			productName = "Pods-JXPostAndGet_Example";
+			productReference = 9A68995A606DB5BD841B0D5D25CB2A09 /* Pods_JXPostAndGet_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		881011B218BA1F85018E0E5D32C9F2D3 /* Pods-JXPostAndGet_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0D36F4DB068711D271098464B13A80C /* Build configuration list for PBXNativeTarget "Pods-JXPostAndGet_Tests" */;
+			buildPhases = (
+				FD343F585740522193F3750FD23AE699 /* Sources */,
+				DF09B8112134DCB16887685C3CC7310C /* Frameworks */,
+				36BBA46E76D8C1F9456CC0B6E42640A5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D02013A8B5E1CD55F07D43C7CED6883D /* PBXTargetDependency */,
+			);
+			name = "Pods-JXPostAndGet_Tests";
+			productName = "Pods-JXPostAndGet_Tests";
+			productReference = 31ADC52E6CB0E7B3D202BD2AB1A1A6EB /* Pods_JXPostAndGet_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8E4A797D9415C8E469206ABFCD44B8FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				592EFCC43293D8F703D32D385D223E50 /* JXPostAndGet */,
+				392F883E0A574CAEB6D8D8546AB04AAD /* JXPostAndGet-JXPostAndGet */,
+				70A29FE226B79FE845653503B381E51C /* Pods-JXPostAndGet_Example */,
+				881011B218BA1F85018E0E5D32C9F2D3 /* Pods-JXPostAndGet_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B55E1A4D6D5F6725906ACA5525D9C685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C491DBBD90411A435D9E33413E52142A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A7F61BE3036C8557A792352F52AB29 /* JXPostAndGet.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DD525C3855AA4E5E83F876EED45B15F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63BF71D61466C83E6E33D595518DD73F /* JXPostAndGet-dummy.m in Sources */,
+				6A0E2A137B6F397A095BEC6DD35EA452 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F5326D3B0EFD011847AD32E09998B10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D515F604F96C52A3501FE83E7115EF07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D6EC66EBD366B28FBBE827E619D86A /* Pods-JXPostAndGet_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD343F585740522193F3750FD23AE699 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB0FEF3AEC88D865CBAF8EE7218A773 /* Pods-JXPostAndGet_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FD953A701B4A4BEC6EE54672B4407E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JXPostAndGet-JXPostAndGet";
+			target = 392F883E0A574CAEB6D8D8546AB04AAD /* JXPostAndGet-JXPostAndGet */;
+			targetProxy = 03DA2DD11733C674C1641500D4B2E309 /* PBXContainerItemProxy */;
+		};
+		A84C40A425F4979CB4A9FE00E48F3DE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JXPostAndGet;
+			target = 592EFCC43293D8F703D32D385D223E50 /* JXPostAndGet */;
+			targetProxy = 1537B0460A061861D37B59BCF25D7C6F /* PBXContainerItemProxy */;
+		};
+		D02013A8B5E1CD55F07D43C7CED6883D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JXPostAndGet;
+			target = 592EFCC43293D8F703D32D385D223E50 /* JXPostAndGet */;
+			targetProxy = 19B972EB1A0373E0FF02AB07EBA35E3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		25C1769B7A1B09CEF54804AEC1A1D3AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 548BD660947420BB557E3E6C41438268 /* JXPostAndGet.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JXPostAndGet/JXPostAndGet-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JXPostAndGet/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JXPostAndGet/JXPostAndGet.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JXPostAndGet;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5883DB11B36600AC064E27CF74D9C018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C525A3298EF9A0DD2E16FE1C11EAADAF /* Pods-JXPostAndGet_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JXPostAndGet_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JXPostAndGet_Example/Pods-JXPostAndGet_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JXPostAndGet_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5CF6AD34F40CA4CA7B2B16CEE083AF37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD018126F225287531E5B163515247BF /* Pods-JXPostAndGet_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JXPostAndGet_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JXPostAndGet_Example/Pods-JXPostAndGet_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JXPostAndGet_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7F82F06A85C31267EBA77AA6BFE91230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 548BD660947420BB557E3E6C41438268 /* JXPostAndGet.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JXPostAndGet/JXPostAndGet-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JXPostAndGet/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JXPostAndGet/JXPostAndGet.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JXPostAndGet;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8381C4E90DD63C8134BD5040830022B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 548BD660947420BB557E3E6C41438268 /* JXPostAndGet.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = JXPostAndGet;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		C21DF950093AE78952E50210C14F28D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 074186771034871FDF74072EB092D0C9 /* Pods-JXPostAndGet_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JXPostAndGet_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JXPostAndGet_Tests/Pods-JXPostAndGet_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JXPostAndGet_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DC1A662749DDD8BAD731502466195A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4529A4169EBDF7E8E9C903A6EA508B63 /* Pods-JXPostAndGet_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JXPostAndGet_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JXPostAndGet_Tests/Pods-JXPostAndGet_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JXPostAndGet_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE4D14FE31C0765D419B3AF317C49B10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 548BD660947420BB557E3E6C41438268 /* JXPostAndGet.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = JXPostAndGet;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76A26331323E8C779F71FA77FD2007F9 /* Build configuration list for PBXNativeTarget "JXPostAndGet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25C1769B7A1B09CEF54804AEC1A1D3AE /* Debug */,
+				7F82F06A85C31267EBA77AA6BFE91230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0D36F4DB068711D271098464B13A80C /* Build configuration list for PBXNativeTarget "Pods-JXPostAndGet_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21DF950093AE78952E50210C14F28D7 /* Debug */,
+				DC1A662749DDD8BAD731502466195A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D47330D468DD3177CBAC99414CA874DB /* Build configuration list for PBXNativeTarget "JXPostAndGet-JXPostAndGet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE4D14FE31C0765D419B3AF317C49B10 /* Debug */,
+				8381C4E90DD63C8134BD5040830022B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1A33AE866FA4ED6CE65B5E6FC24CC7D /* Build configuration list for PBXNativeTarget "Pods-JXPostAndGet_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF6AD34F40CA4CA7B2B16CEE083AF37 /* Debug */,
+				5883DB11B36600AC064E27CF74D9C018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

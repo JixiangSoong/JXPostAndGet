@@ -1,0 +1,6 @@
+framework module JXPostAndGet {
+  umbrella header "JXPostAndGet-umbrella.h"
+
+  export *
+  module * { export * }
+}

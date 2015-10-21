@@ -1,0 +1,14 @@
+PODS:
+  - JXPostAndGet (0.1.0)
+
+DEPENDENCIES:
+  - JXPostAndGet (from `../`)
+
+EXTERNAL SOURCES:
+  JXPostAndGet:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JXPostAndGet: 84f55f14e6e10daff9a03fb2841011969d5b5023
+
+COCOAPODS: 0.39.0
