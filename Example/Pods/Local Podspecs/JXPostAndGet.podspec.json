@@ -1,9 +1,9 @@
 {
   "name": "JXPostAndGet",
   "version": "0.1.0",
-  "summary": "A short description of JXPostAndGet.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/JXPostAndGet",
+  "summary": "A simple class provides basic POST and GET methods.",
+  "description": "This CococaPod provides the basic POST and GET methods to post and get data from url strings.",
+  "homepage": "https://github.com/Sos1991/JXPostAndGet",
   "license": "MIT",
   "authors": {
     "Jack Soong": "sos1991@qq.com"

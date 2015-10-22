@@ -7,6 +7,7 @@
 //
 
 #import "JXViewController.h"
+#import "ApiCall.h"
 
 @interface JXViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [[ApiCall defaultApiCal] getResponse:@"http://apis.juhe.cn/mobile/get?phone=18016388453&key=b4b88a8ffc09e2fd3f24251ee19fa168"];
 }
 
 - (void)didReceiveMemoryWarning

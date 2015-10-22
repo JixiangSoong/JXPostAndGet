@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  JXPostAndGet: 84f55f14e6e10daff9a03fb2841011969d5b5023
+  JXPostAndGet: ca90afbf3bee6b10c58d4afa65386d802bfa3c96
 
 COCOAPODS: 0.39.0
